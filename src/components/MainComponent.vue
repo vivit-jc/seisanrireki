@@ -26,6 +26,7 @@
 import { computed, ref } from 'vue';
 import { Pesticide, Post } from './models';
 import { addPost } from '../utils/firebase/write';
+import { Notify } from 'quasar';
 
 let name = ref();
 let field_number = ref();
@@ -47,6 +48,7 @@ function clickPesticide(p: Pesticide) {
 
 function submit() {
   addPost(makePostData());
+  Notify.create('送信しました');
   return false;
 }
 
