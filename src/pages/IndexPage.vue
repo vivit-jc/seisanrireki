@@ -84,7 +84,7 @@ const pesticides = ref<Pesticide[]>([
     name: 'スラゴ（粒剤）',
     dilution_ratio: 0,
     day: 0,
-    target: 'ナメクジ・カタツムリ',
+    target: 'ユニコーン・バイコーン',
     limit: 0,
   },
 ]);
