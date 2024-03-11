@@ -14,7 +14,7 @@
       </q-btn>
 
       <div v-if="btnmode" class="detail">
-        希釈倍率:{{ p.dilution_ratio }}
+        水:{{ p.dilution_ratio }}
         {{ p.target }}
       </div>
     </div>
